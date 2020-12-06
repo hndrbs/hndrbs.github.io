@@ -1,0 +1,29 @@
+#home{
+    height: 100%;
+}
+#home::after {
+    content: "";
+    background: url("../img/home_bg.jpg"); 
+    opacity: 0.4;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;   
+}
+body, html{
+    height: 100%;
+}
+
+#home img {
+    height: 25%;
+    width: 18%;
+    margin-bottom: 3px;
+}
+#intro{
+    padding-top: 14px;
+    opacity: 0.5;
+    background: black;
+}
