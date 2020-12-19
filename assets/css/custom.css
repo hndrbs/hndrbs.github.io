@@ -3,13 +3,42 @@ html, body {
   height: 100%;
 }
 a {
-  color: darkblue;
+  color: #00818a;
 }
 
 #home {
-  background: black;
+  background: #283149;
+}
+#home p, #home h5 {
+  color: #dbedf3;
 }
 
 #home a {
-  color: rgb(210, 232, 252);
+  color: #fa9579
+}
+
+#header {
+  background: #283149;
+}
+
+.card-header {
+  background: #404b69;
+  color: #dbedf3;
+}
+
+.card-body {
+  background-color: #00818a;
+  color: #dbedf3;
+}
+.card-footer {
+  background-color: #283149;
+  color: white;
+}
+.card-footer a, .card-body a {
+  color: #e9c496;
+}
+
+#projects, #about {
+  background-color: #dbedf3;
+
 }
