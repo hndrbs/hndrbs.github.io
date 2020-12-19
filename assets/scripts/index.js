@@ -1,12 +1,12 @@
 $(document).ready(function(){
+  showHome()
+  $('.go-home').on('click', () => {
     showHome()
-    $('.go-about').on('click', function(){
-        showAbout()
-    })
-    $('.go-home').on('click', function(){
-        showHome()
-    })
-    $('.go-projects').on('click', function(){
-        showProjects()
-    })
+  })
+  $('.go-projects').on('click', () => {
+    showProjects()
+  })
+  $('.go-about').on('click', () => {
+    showAbout()
+  })
 })

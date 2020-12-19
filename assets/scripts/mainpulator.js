@@ -1,21 +1,20 @@
-function showContent(){
-    $('#home').hide()
-    $('#header').show()
-}
-function showAbout(){
-    //console.log('masuk')
-    showContent()
+function showHome () {
+  $('#home').show()
+  $('#about').hide()
+  $('#projects').hide()
+  $('#header').hide()
 }
 
-function showHome(){
-    $('#home').show()
-    $('#header').hide()
-    $('#projects').hide()
-    $('#experience').hide()
-    $('#about').hide()
+function showProjects () {
+  $('#home').hide()
+  $('#about').hide()
+  $('#projects').show()
+  $('#header').show()
 }
 
-function showProjects(){
-    showContent()
-    $('#projects').show()
+function showAbout () {
+  $('#home').hide()
+  $('#about').show()
+  $('#projects').hide()
+  $('#header').show()
 }
